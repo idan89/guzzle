@@ -12,7 +12,6 @@ jobs:
     container:
       image: convisoappsec/convisocli:latest
       env:
-        CONVISO_ASSET_NAME: 'guzzle-new'
         CONVISO_API_KEY: ${{secrets.CONVISO_API_KEY}}
     steps:
     - uses: actions/checkout@v4
