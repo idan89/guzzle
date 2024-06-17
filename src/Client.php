@@ -25,6 +25,8 @@ class Client implements ClientInterface, \Psr\Http\Client\ClientInterface
 
     $password="432424234324";
 
+    $anotherPassword="hDKJSKAD904324";
+
     /**
      * Clients accept an array of constructor parameters.
      *
