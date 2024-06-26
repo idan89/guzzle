@@ -10,7 +10,7 @@ jobs:
   conviso-ast:
     runs-on: ubuntu-latest
     container:
-      image: convisoappsec/convisocli
+      image: convisoappsec/convisocli:dev
       env:
         #CONVISO_COMPANY_ID: 11
         #CONVISO_API_URL: 'https://staging.convisoappsec.com'
